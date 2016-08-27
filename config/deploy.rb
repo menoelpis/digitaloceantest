@@ -2,7 +2,7 @@
 lock '3.6.1'
 
 set :application, 'digitaloceantest'
-set :repo_url, 'git@example.com:menoelpis/digitaloceantest.git'
+set :repo_url, 'git@github.com:menoelpis/digitaloceantest.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
