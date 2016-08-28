@@ -15,6 +15,10 @@ gem 'jbuilder',      '2.6.0'
 group :development, :test do
   gem 'sqlite3',     '1.3.11'
   gem 'byebug',      '9.0.5', platform: :mri
+  gem 'capistrano',            '3.6.1'
+  gem 'capistrano-bundler',    '1.1.4'
+  gem 'capistrano-rails',      '1.1.7'
+  gem 'capistrano-rbenv',      '2.0.4'
 end
 
 group :development do
@@ -22,10 +26,6 @@ group :development do
   gem 'listen',                '3.1.5'
   gem 'spring',                '1.7.2'
   gem 'spring-watcher-listen', '2.0.0'
-  gem 'capistrano',            '3.6.1'
-  gem 'capistrano-bundler',    '1.1.4'
-  gem 'capistrano-rails',      '1.1.7'
-  gem 'capistrano-rbenv',      '2.0.4'
 end
 
 group :test do
