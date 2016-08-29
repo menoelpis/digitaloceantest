@@ -11,6 +11,7 @@ set :repo_url, 'git@github.com:menoelpis/digitaloceantest.git'
 set :deploy_to, '/home/rails/digitaloceantest'
 
 set :conditionally_migrate, true
+set :ssh_options, { :forward_agent => true }
 
 set :linked_files, %w{config/database.yml config/secrets.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
